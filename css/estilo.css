@@ -1,0 +1,105 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+header{
+	width: 100%;
+}
+
+
+.text{
+	padding: 50px;
+	font-family: 'verdana';
+}
+
+.pie{
+	width: 100%;
+	max-width: auto;
+	margin: auto;
+	background: #2b2b2b;
+}
+
+.pie p{
+	font-family: 'verdana';
+	font-weight: 200;
+	color: #fff;
+	padding: 20px;
+}
+
+.logotipo{
+	width: 100%;
+	max-width: auto;
+	margin: auto;
+	background: #2b2b2b;
+}
+
+.navegacion{
+	width: 100%;
+	background: #59bc11;
+}
+
+.navegacion nav{
+	width: 90%;
+	max-width: auto;
+	margin: auto;
+}
+
+.boton-menu{
+	display: none;
+}
+
+.boton-menu span{
+	color: #fff;
+	font-size: 25px;
+	cursor: pointer;
+
+}
+
+.menu{
+	list-style: none;
+	width: 100%;
+}
+
+.menu li{
+	display: inline-block;
+}
+
+.menu li a{
+	display: block;
+	padding: 15px;
+	color: #fff;
+	text-decoration: none;
+	font-family: 'verdana';
+}
+
+.menu li a:hover{
+	background: #3f3c3c;
+}
+
+@media screen and (max-width: 700px){
+	.boton-menu{
+		width: 90%;
+		margin: auto;
+		display: block;
+		padding: 8px;
+	}
+
+	.navegacion nav{
+		position: absolute;
+		width: 250px;
+		height: 100%;
+		background: #393939
+	}
+
+	.menu li{
+		display: block;
+	}
+
+	.imgcar img{
+		width: 100%;
+		margin: auto;
+		display: block;
+
+	}
+}
