@@ -1,0 +1,27 @@
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Person",
+  "name" : "Brent",
+  "makesOffer" : {
+        "@type" :"Offer",
+        "priceSpecification" : {
+            "@type" : "UnitPriceSpecification",
+            "priceCurrency" : "USD",
+            "price" : "51,900" },
+        "itemOffered" : {
+            "@type" : "Car",
+            "name" : "2015 Dodge Challenger",
+            "description" : "2015 Dodge Challenger Direct-Shift Gearbox in perfect mechanical condition and low kilometres. It's impressive 2.0 litre turbo engine makes every drive a fun experience. Well looked after by one owner with full service history. It drives like new and has only done 50,000kms. (...)",
+        "image" : "https://josephqc.github.io/img/dodgemo.dpng",
+        "color" : "Black",
+        "numberOfForwardGears" : "6",
+        "vehicleEngine" : {
+            "@type": "EngineSpecification",
+            "name" : "6-speed manual or 8-speed automatic transmission"
+            },
+        "numberOfAirbags" : "6"
+        }
+    }
+}
+</script>
